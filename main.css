@@ -80,8 +80,12 @@ section.hero h2 {
 }
 
 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     text-align: center;
-}
+  }
 
 .container article.text-box {
     display: inline-block;
@@ -95,4 +99,26 @@ section.hero h2 {
     .container .article.text-box {
         margin: 10px;
     }
+}
+
+.skip-to-content-link {
+    
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: center;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+  
+  .skip-to-content-link:focus {
+    transform: translateY(0%);
+  }
+  article.center-box {
+    width: 100%;
+    background-color: #4d5791;
+    text-align:center;
+    color: #fff;
+    height: 44px;
+    padding: 0 40px;
 }
