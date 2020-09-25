@@ -13,7 +13,12 @@ div.menu {
     height: 44px;
     padding: 0 40px;
 }
-
+nav.fn-nav {
+    width: 100%;
+    background-color: #4d5791;
+    height: 44px;
+    padding: 0 40px;
+}
 div.menu ul,
 div.menu ul li {
     margin: 0;
@@ -31,8 +36,22 @@ div.menu ul li a {
     color: #fff;
     margin: 0;
 }
-
-div.menu ul li a:hover  {
+nav.fn-nav ul li {
+    margin: 0;
+    padding: 0 ;
+    list-style-type: none;
+    display: inline-block;
+}
+nav.fn-nav ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+nav.fn-nav ul li a:hover  {
     background-color: white;
     color: #4d5791;
 }
