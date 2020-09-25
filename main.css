@@ -96,7 +96,7 @@ section.hero h2 {
 }
 
 @media screen and (min-width: 768px) {
-    .container .article.text-box {
+    .container .div.text-box {
         margin: 10px;
     }
 }
