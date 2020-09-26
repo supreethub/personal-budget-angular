@@ -80,6 +80,7 @@ section.hero h2 {
 }
 
 .center {  
+    display: inline-block;
     text-align: center;
   }
 
