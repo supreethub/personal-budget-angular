@@ -79,11 +79,7 @@ section.hero h2 {
     padding: 40px;
 }
 
-.center {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    
+.center {  
     text-align: center;
   }
 
