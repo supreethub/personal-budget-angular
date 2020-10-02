@@ -3,31 +3,31 @@
     "myBudget": [
         {
             "title": "Rent",
-            "budget": "380"
+            "budget": 380
         },
         {
             "title": "Grocery",
-            "budget": "90"
+            "budget": 90
         },
         {
             "title": "Netflix",
-            "budget": "25"
+            "budget": 25
         },
         {
             "title": "Fast Food",
-            "budget": "40"
+            "budget": 40
         },
         {
             "title": "Cab",
-            "budget": "20"
+            "budget": 20
         },
         {
             "title": "Bills",
-            "budget": "50"
+            "budget": 50
         },
         {
             "title": "Gas",
-            "budget": "30"
+            "budget": 30
         }
     ]
 }
